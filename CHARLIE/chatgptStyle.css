@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.head{
+    width: 100%;
+    height: 90px;
+    background-color: rgb(75, 46, 42);
+    display: flex;      
+    align-items: center;
+    justify-content: center;
+
+}
+.head div{
+    width: 50px;
+    height: 22px;
+    margin: 0 100px;
+    color: #FAF3E0;
+}
+.hela.sidan{
+    width: 100%;
+    height: 100vh;
+    
+    background-color: rgb(95, 65, 61);
+    display: flex;
+    flex-direction: column;
+
+}
+.Meny{
+    background-color: #8C8C6E;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.Rubriken{
+    width: 100%;
+    height: 50px;
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(95, 65, 61);
+    
+
+}
+body{
+    width: 100%;
+    height: 600px;
+    background-color: #E6D5B8;    
+}
+
+.main{
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:5px;
+}
+
+.button{
+    display:flex;
+    justify-content: center;
+    background-color: #A3A380;
+    color: #FAF3E0; 
+    padding: 10px 20px;
+    border-radius: 10vh;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    transition: background 0.3s;
+    width:15%;
+
+}
+
+
+.button:hover{
+    background-color: #8C8C6E;
+    width: 15%;
+}
+
+.info{
+    align-items: center;
+    
+}
+.text_info{
+    width: 400px;
+    margin-top: 5px;
+}
+.Bryggmetoder{
+    width: 500px;
+    margin-left: 100px;
+    margin-top: 5px;
+    align-items: center;
+    padding: 3%;
+}
+.kontakt_info{
+    background-color: #8C8C6E;
+    color: #FAF3E0;
+    padding-top: 10px;
+    height: 200px;
+    width: 100%;
+
+}
